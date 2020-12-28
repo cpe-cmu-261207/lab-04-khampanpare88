@@ -130,13 +130,13 @@ function App() {
             setInputData({...inputData,name: e.currentTarget.value}) 
           }/>
           </td>
-          <td><button className = "bg-red-500 rounded-2xl p-1  hover:bg-red-200" type="submit">+</button></td> 
+          <td><button className = "bg-blue-900 rounded-2xl p-1  hover:bg-red-200 text-white" type="submit">+</button></td> 
        </form>
         
       </div>
       {/* TODO add course input form */}
       {/* TODO display calculated GPA */}
-      <p className = "bg-green-100 rounded-3xl p-1 text-center hover:bg-green-200">GPA : {GPA}</p>
+      <p className = "bg-blue-900 rounded-3xl p-1 text-center hover:bg-blue-700 text-white">GPA : {GPA}</p>
     </div>
   );
 }
